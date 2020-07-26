@@ -19,7 +19,12 @@ public class HelloController {
     public String hello3(){
         return "hello3";
     }
-    
+
+    @RequestMapping("/hello4")
+    public String hello4(){
+        return "hello4";
+    }
+
     @RequestMapping("/hello5")
     public String hello5(){
         return "hello5";
