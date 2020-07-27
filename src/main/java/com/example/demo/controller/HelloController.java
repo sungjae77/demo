@@ -22,7 +22,7 @@ public class HelloController {
 
     @RequestMapping("/hello4")
     public String hello4(){
-        return "hello4";
+        return "hello4"; //master comment
     }
 
     @RequestMapping("/hello5")
