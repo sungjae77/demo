@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
-        return "hello"; //comment1
+        return "hello"; //comment remote master
     }
 
     @RequestMapping("/hello2")
